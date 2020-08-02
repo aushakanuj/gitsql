@@ -1,5 +1,5 @@
 -- SELECT REPLACE (title,"e","3") FROM books;
-SELECT 
+SELECT
     CONCAT
     (
         SUBSTRING(   
@@ -8,4 +8,4 @@ SELECT
                 )
         ,"..."
     ) as complex
-    FROM books;
+FROM books;

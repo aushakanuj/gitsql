@@ -20,9 +20,10 @@ SELECT
         )
         ,"..."
     ) as "short title",
-
     CONCAT(
-        author_lname,",",author_fname
+        author_lname,
+        ",",
+        author_fname
     ) as author,
     CONCAT(
         stock_quantity," in stock"
