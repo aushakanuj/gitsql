@@ -60,4 +60,4 @@ ORDER BY 2;
 
 SELECT author_fname, author_lname
 FROM books
-ORDER BY author_lname, author_fname;
+ORDER BY author_lname, author_fname; 
